@@ -1,0 +1,174 @@
+body {
+	margin: 0 auto 0 auto;
+	float: none !important;
+	max-width: 80%;
+	background-image: url("../images/ep_naturalblack.png");
+	height: 100%;
+	position: relative;
+
+}
+
+#name {
+	background-color: #6f0204;
+	margin: 0;
+	padding: 0;
+	height: 55px;
+	width: 100%;
+	opacity: .5;
+}
+
+#name h1 {
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#link {
+	background-color: #9a0002;
+	width: 100%;
+	height: 30px;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+#link ul {
+	margin: 0;
+	display: inline;
+}
+
+#link ul li {
+	padding-left: 10px;
+	display: inline-block;
+	list-style-type: none;
+	border-left: 1px solid #9999af;	
+}
+
+#link ul a:hover {
+	color: black;
+}
+
+#link ul li:first-child {
+	border-left: none;
+}
+
+#link ul li a {
+	color: white;
+}
+
+#content {
+
+
+	min-height: calc(100vh - 70px);
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+#maincontent {
+	text-align: center;
+	float: left;
+	background-color: gray;
+	color: black;
+	width: 60%;
+	border: solid 2px;
+	border-color: red;
+	padding: 20px;
+
+}
+
+
+
+#maincontent p {
+	border-top: solid;
+	padding: 15px 0 0 0;
+}
+
+#maincontent img {
+	float: left;
+	padding: 50px 20px 20px 20px;
+	max-width: 100%;
+	max-height: auto;
+}
+
+#connect {
+	text-align: center;
+	background-color: #9a0002;
+	float: left;
+	width: 20%;
+	margin-left: 100px;
+	border: solid 2px;
+	border-color: red;
+}
+
+.cleardiv {
+	clear: both;
+	height: 50px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical; 
+ }
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    background-color: gray;
+    padding: 20px;
+}
+
+#footer {
+	font-size: 18px;
+
+	text-align: center;
+	margin-top: 15px;
+	background-color:#9a0002;
+	bottom: 0;
+	left: 0; 
+	height: 50px;
+
+}
+
+@media screen and (min-width: 980px) {
+		
+		#maincontent {
+		
+		}
+
+}
+
+@media screen and (min-width: 768px) {
+
+		body {
+			width: 80%;
+			margin: 0 auto 0 auto;
+		}	
+}
+
+@media screen and (min-width: 640px) {
+
+	body {
+		width: 80%;
+		margin: 0 auto 0 auto;
+	}
+}
